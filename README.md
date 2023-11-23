@@ -21,7 +21,7 @@ Usage
 1. Clone the repository:
 
 ```bash
-git clone https://github.com/binocode/MLNumberPrediction.git
+git clone https://github.com/binocoder/MLNumberPrediction.git
 cd MLNumberPrediction
 ```
 
