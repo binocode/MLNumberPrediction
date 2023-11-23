@@ -9,9 +9,9 @@ import os
 
 DEVELOPMENT = False
 
-if os.path.isfile("chosen.json"):
+if not os.path.isfile("chosen.json"):
 	with open("chosen.json", "w") as f:
-		f.write("[]")
+		f.write("[0, 25]")
 
 data_list = json.load(open("chosen.json"))
 
